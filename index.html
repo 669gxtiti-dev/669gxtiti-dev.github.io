@@ -4,6 +4,9 @@
 <meta charset="UTF-8">
 <meta name="monetag" content="fcefac02ab79a99a270db1c3c3987b19">
 <script async src="//cdn.monetag.com/tag.min.js" data-zone="10755581"></script>
+<script src="https://5gvci.com/act/files/tag.min.js?z=10760709" data-cfasync="false" async></script>
+<script>(function(s){s.dataset.zone='10760732',s.src='https://izcle.com/vignette.min.js'})([document.documentElement, document.body].filter(Boolean).pop().appendChild(document.createElement('script')))</script>
+<script>(function(s){s.dataset.zone='10760733',s.src='https://nap5k.com/tag.min.js'})([document.documentElement, document.body].filter(Boolean).pop().appendChild(document.createElement('script')))</script>
 <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=0.5,maximum-scale=3,user-scalable=yes,viewport-fit=cover">
 <title>PlinkoCash</title>
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7800729887018108" crossorigin="anonymous"></script>
@@ -2329,11 +2332,10 @@ function toggleSideMenu(){
   tog.style.left=hidden?'2px':'calc(clamp(43px,11.2vw,53px) + 6px)';
 }
 function showRealAd(cb){
+  // Utiliser le script OnClick Monetag zone 10760709
   if(typeof window.show_ad_fn === 'function'){
-    window.show_ad_fn(10755581, function(){if(cb)cb();}, function(){toast('📺 Pub terminée !');if(cb)cb();});
+    window.show_ad_fn(10760709, function(){if(cb)cb();}, function(){if(cb)cb();});
   } else {
-    // Fallback si SDK pas encore chargé
-    toast('📺 Pub...');
     setTimeout(function(){if(cb)cb();}, 1500);
   }
 }
@@ -2392,6 +2394,7 @@ function closeOv2(id){document.getElementById(id).style.display='none';}
 if('serviceWorker' in navigator){
   navigator.serviceWorker.register('/Plinko/sw.js');
 }
+
 </script>
 </body>
 </html>
